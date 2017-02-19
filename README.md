@@ -29,7 +29,7 @@
   3)使用Intellij Idea导入项目,之后配置项目方式,使用刚才下载好的Tomcat
 
   4)运行
-
+https://pic1.zhimg.com/v2-44688d7a989ae25d9db6767a50a208f8_b.png
 # 使用简介:
 
   1.权限介绍:
@@ -39,6 +39,8 @@
   3).teacher教师
   4).supplier供应商
   密码均为:123456
+  ![image](https://pic1.zhimg.com/v2-44688d7a989ae25d9db6767a50a208f8_b.png)
+ ![image](https://pic4.zhimg.com/v2-87231f2eb533cdab3d3e04c7a89457af_b.png)
 
 # 功能介绍:
 ##  1.基本信息功能:
@@ -48,7 +50,7 @@
   3)班级信息
   4)课程信息
   5)学生管理
-
+  ![image](https://pic3.zhimg.com/v2-3ff2f0da17e8609f85da3b61671cf0de_b.png)
 
 ## 2.图书管理功能:
   1)教师上传图书
