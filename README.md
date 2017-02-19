@@ -1,62 +1,78 @@
 # 简介
 这是个简单的教务系统网站
 
-# 使用技术            
-  IoC容器:spring
+# 使用技术 
+
+IoC容器:spring
   
-  web框架:springmvc
+web框架:springmvc
   
-  orm框架:mybatis
+orm框架:mybatis
   
-  安全框架:shiro
+安全框架:shiro
   
-  数据源:dbcp2
+数据源:dbcp2
   
-  日志: sl4j
+日志: sl4j
+  
+Json: Gson
   
-  Json: Gson
-  
-  前端框架:Bootstrap
+前端框架:Bootstrap
 
 # 起步:
 
-  1.初始化项目
+1.初始化项目
 
-  1)下载Mysql,创建一个数据库名字为giit,导入create.sql与populate.sql,直接运行其中sql即可
+1)下载Mysql,创建一个数据库名字为giit,导入create.sql与populate.sql,直接运行其中sql即可
 
-  2)下载Tomcat
+2)下载Tomcat
 
-  3)使用Intellij Idea导入项目,之后配置项目方式,使用刚才下载好的Tomcat
-
-  4)运行
+3)使用Intellij Idea导入项目,之后配置项目方式,使用刚才下载好的Tomcat
+  
+4)运行
 https://pic1.zhimg.com/v2-44688d7a989ae25d9db6767a50a208f8_b.png
 # 使用简介:
 
-  1.权限介绍:
-  其中权限分为
-  1).admin管理员
-  2).student学生
-  3).teacher教师
-  4).supplier供应商
-  密码均为:123456
-  ![image](https://pic1.zhimg.com/v2-44688d7a989ae25d9db6767a50a208f8_b.png)
- ![image](https://pic4.zhimg.com/v2-87231f2eb533cdab3d3e04c7a89457af_b.png)
+1.权限介绍:
+
+其中权限分为
+
+1).admin管理员
+
+2).student学生
+
+3).teacher教师
+
+4).supplier供应商
+
+密码均为:123456
+  
+![image](https://pic1.zhimg.com/v2-44688d7a989ae25d9db6767a50a208f8_b.png)
+![image](https://pic4.zhimg.com/v2-87231f2eb533cdab3d3e04c7a89457af_b.png)
 
 # 功能介绍:
 ##  1.基本信息功能:
-  其中可以设置一些基本的学校信息,也就是数据库中的实体-关系,之后就可以基于这些基本的关系信息进行更加复杂的功能,例如选课后可以记录多少学生选择了这门课程,只会教师提交图书后计算图书总数可以通过其中的关系得到
-  1)系部信息
-  2)专业信息
-  3)班级信息
-  4)课程信息
-  5)学生管理
-  ![image](https://pic3.zhimg.com/v2-3ff2f0da17e8609f85da3b61671cf0de_b.png)
+其中可以设置一些基本的学校信息,也就是数据库中的实体-关系,之后就可以基于这些基本的关系信息进行更加复杂的功能,例如选课后可以记录多少学生选择了这门课程,只会教师提交图书后计算图书总数可以通过其中的关系得到
+
+1)系部信息
+
+2)专业信息
+
+3)班级信息
+
+4)课程信息
+
+5)学生管理
+
+![image](https://pic3.zhimg.com/v2-3ff2f0da17e8609f85da3b61671cf0de_b.png)
 
 ## 2.图书管理功能:
-  1)教师上传图书
-  2)秘书审批图书
-  3)查看已审核图书
-  
+1)教师上传图书
+
+2)秘书审批图书
+
+3)查看已审核图书
+
 # 数据库表结构:
 ![image](http://7xi78h.com1.z0.glb.clouddn.com/db.png)
 
