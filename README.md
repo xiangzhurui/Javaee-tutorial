@@ -30,6 +30,7 @@ Json: Gson
 3)使用Intellij Idea导入项目,之后配置项目方式,使用刚才下载好的Tomcat
   
 4)运行
+
 ![image](https://pic4.zhimg.com/v2-87231f2eb533cdab3d3e04c7a89457af_b.png)
 
 # 使用简介:
@@ -47,8 +48,6 @@ Json: Gson
 4).supplier供应商
 
 密码均为:123456
-
-![image](https://pic4.zhimg.com/v2-87231f2eb533cdab3d3e04c7a89457af_b.png)
 
 # 功能介绍:
 ##  1.基本信息功能:
