@@ -37,17 +37,17 @@ Json: Gson
 
 1.权限介绍:
 
-其中权限分为
+根据导入的populate.sql,运行网站初始时会存在四个权限角色:
 
-1).admin管理员
+1).管理员,账号为admin
 
-2).student学生
+2).学生,账号为student
 
-3).teacher教师
+3).教师,账号为teache
 
-4).supplier供应商
+4).供应商,账号为supplier
 
-密码均为:123456
+/b密码均为123456
 
 # 功能介绍:
 ##  1.基本信息功能:
