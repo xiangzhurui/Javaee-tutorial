@@ -1,7 +1,7 @@
-# javaee-tutorial
+# 简介
 这是个简单的教务系统网站
 
-使用技术            
+#使用技术            
   IoC容器:spring
   
   web框架:springmvc
@@ -19,7 +19,7 @@
   前端框架:Bootstrap
   
             
-数据库表结构:
+#数据库表结构:
 ![image](http://7xi78h.com1.z0.glb.clouddn.com/db.png)
               
 
